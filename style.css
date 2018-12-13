@@ -12,6 +12,7 @@ ul {
     padding: 0;
 }
 
+/* Navbar CSS */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -37,4 +38,61 @@ ul {
     text-transform: uppercase;
     margin-left: 25px;
     font-size: 1.5em;
+}
+
+/* Banner CSS */
+.banner {
+    display: flex;
+    background-color: #000;
+    height: 45vh;
+    color: #e8df73;
+    align-content: center;
+    justify-content: center;
+}
+
+.banner-title {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+/* Main section */
+.tiles,
+.boxes,
+.display-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+/* Tiles Section */
+.tile {
+    width: 300px;
+    height: 300px;
+    background-color: #b8fcd9;
+    border-radius: 10%;
+}
+
+/* BOXES SECTION */
+.box {
+    width: 500px;
+    height: 200px;
+    background-color: #f6c479;
+}
+
+.content-item {
+    flex-basis: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-text {
+    width: 300px;
+}
+
+.content-img {
+    width: 200px;
+    margin: 0 auto;
+    align-self: center;
 }
